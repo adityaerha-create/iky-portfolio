@@ -735,6 +735,13 @@
             .side-nav-notion { display: none; } /* Sembunyikan di HP */
         }
         
+        @media (max-width: 768px) {
+            .p-mockup-main { filter: none !important; }
+            .bubble { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; background: rgba(255, 255, 255, 0.9) !important; }
+            .bottom-blur-mask, #bottom-blur-bar { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
+            .detail-overlay { backdrop-filter: blur(6px) !important; -webkit-backdrop-filter: blur(6px) !important; }
+        }
+
     </style>
 </head>
 <body>
@@ -1216,7 +1223,7 @@
         </div>
     </div>
 
-    <!-- ================= 10. PROJECT OVERLAY: TOWER OF ENDINGS ================= -->
+        <!-- ================= 10. PROJECT OVERLAY: TOWER OF ENDINGS ================= -->
     <div class="detail-overlay" id="detailTower" data-lenis-prevent>
         <div class="pd-header-spread">
             <h1 class="pd-title" id="dtTitleTower">Tower of Endings</h1>
@@ -1227,11 +1234,11 @@
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg>
             </button>
             <div class="pd-slider-track" id="towerSliderTrack">
-                <div class="pd-slide pd-slide-center"><img src="tower-thumb.png" alt="Slide 1" onerror="this.src='https://via.placeholder.com/800x400/111/fff?text=Slide+1'"></div>
-                <div class="pd-slide"><img src="tower-slide-2.png" alt="Slide 2" onerror="this.src='https://via.placeholder.com/800x400/333/fff?text=Placeholder+2'"></div>
-                <div class="pd-slide"><img src="tower-slide-3.png" alt="Slide 3" onerror="this.src='https://via.placeholder.com/800x400/555/fff?text=Placeholder+3'"></div>
-                <div class="pd-slide"><img src="tower-slide-4.png" alt="Slide 4" onerror="this.src='https://via.placeholder.com/800x400/777/fff?text=Placeholder+4'"></div>
-                <div class="pd-slide"><img src="tower-slide-5.png" alt="Slide 5" onerror="this.src='https://via.placeholder.com/800x400/999/fff?text=Placeholder+5'"></div>
+                <div class="pd-slide pd-slide-center"><img src="tower-thumb.png" loading="lazy" decoding="async" alt="Slide 1" onerror="this.src='https://via.placeholder.com/800x400/111/fff?text=Slide+1'"></div>
+                <div class="pd-slide"><img src="tower-slide-2.png" loading="lazy" decoding="async" alt="Slide 2" onerror="this.src='https://via.placeholder.com/800x400/333/fff?text=Placeholder+2'"></div>
+                <div class="pd-slide"><img src="tower-slide-3.png" loading="lazy" decoding="async" alt="Slide 3" onerror="this.src='https://via.placeholder.com/800x400/555/fff?text=Placeholder+3'"></div>
+                <div class="pd-slide"><img src="tower-slide-4.png" loading="lazy" decoding="async" alt="Slide 4" onerror="this.src='https://via.placeholder.com/800x400/777/fff?text=Placeholder+4'"></div>
+                <div class="pd-slide"><img src="tower-slide-5.png" loading="lazy" decoding="async" alt="Slide 5" onerror="this.src='https://via.placeholder.com/800x400/999/fff?text=Placeholder+5'"></div>
             </div>
             <button class="pd-nav next interactable" id="pdNextBtnTower">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -1245,7 +1252,7 @@
                     <span class="pd-quote-mark">”</span>
                 </div>
                 <div class="pd-case-study-graphic">
-                    <img src="case-study-tower.png" alt="Tower of Endings Case Study" onerror="this.src='https://via.placeholder.com/1500x2500/eaeaea/555?text=Export+Gambar+Figma+Panjang+Di+Sini'">
+                    <img src="case-study-tower.png" loading="lazy" decoding="async" alt="Tower of Endings Case Study" onerror="this.src='https://via.placeholder.com/1500x2500/eaeaea/555?text=Export+Gambar+Figma+Panjang+Di+Sini'">
                 </div>
                 <div style="height: 0vh;"></div>
             </div>
@@ -1263,9 +1270,9 @@
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg>
             </button>
             <div class="pd-slider-track" id="khodamSliderTrack">
-                <div class="pd-slide pd-slide-center"><img src="khodam-thumb.png" alt="Slide 1" onerror="this.src='https://via.placeholder.com/800x450/111/fff?text=Khodam+Slide+1'"></div>
-                <div class="pd-slide"><img src="khodam-slide-2.png" alt="Slide 2" onerror="this.src='https://via.placeholder.com/800x450/333/fff?text=Khodam+Slide+2'"></div>
-                <div class="pd-slide"><img src="khodam-slide-3.png" alt="Slide 3" onerror="this.src='https://via.placeholder.com/800x450/555/fff?text=Khodam+Slide+3'"></div>
+                <div class="pd-slide pd-slide-center"><img src="khodam-thumb.png" loading="lazy" decoding="async" alt="Slide 1" onerror="this.src='https://via.placeholder.com/800x450/111/fff?text=Khodam+Slide+1'"></div>
+                <div class="pd-slide"><img src="khodam-slide-2.png" loading="lazy" decoding="async" alt="Slide 2" onerror="this.src='https://via.placeholder.com/800x450/333/fff?text=Khodam+Slide+2'"></div>
+                <div class="pd-slide"><img src="khodam-slide-3.png" loading="lazy" decoding="async" alt="Slide 3" onerror="this.src='https://via.placeholder.com/800x450/555/fff?text=Khodam+Slide+3'"></div>
             </div>
             <button class="pd-nav next interactable" id="pdNextBtnKhodam">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -1280,15 +1287,15 @@
                 </div>
                 
                 <!-- 1. BAGIAN ATAS: Shader Showcase (HYBRID) -->
-                 <div class="khodam-shader-section">
+                <div class="khodam-shader-section">
                     <div class="shader-header">
-                        <img src="shader-title.png" alt="Technical UI Implementation" onerror="this.src='https://via.placeholder.com/800x150/e5e5e5/333?text=Shader+Title+Image'" style="width: 100%; max-width: 550px; height: auto; display: block; margin: 0 auto;">
+                        <img src="shader-title.png" loading="lazy" decoding="async" alt="Technical UI Implementation" onerror="this.src='https://via.placeholder.com/800x150/e5e5e5/333?text=Shader+Title+Image'" style="width: 100%; max-width: 550px; height: auto; display: block; margin: 0 auto;">
                     </div>
 
                     <div class="shader-comparison">
                         <!-- Before (Statis) -->
                         <div class="shader-box">
-                            <img src="shader-static.png" alt="Static UI Base" onerror="this.src='https://via.placeholder.com/400x250/fff/333?text=Static+Image'">
+                            <img src="shader-static.png" loading="lazy" decoding="async" alt="Static UI Base" onerror="this.src='https://via.placeholder.com/400x250/fff/333?text=Static+Image'">
                             <span class="shader-label">Static Asset</span>
                         </div>
                         
@@ -1299,27 +1306,25 @@
                         
                         <!-- After (GIF Bergerak) -->
                         <div class="shader-box">
-                            <img src="shader-anim.gif" alt="Animated URP Shader" onerror="this.src='https://via.placeholder.com/400x250/fff/ff4757?text=Animated+GIF'">
+                            <img src="shader-anim.gif" loading="lazy" decoding="async" alt="Animated URP Shader" onerror="this.src='https://via.placeholder.com/400x250/fff/ff4757?text=Animated+GIF'">
                             <span class="shader-label active">Live URP Shader</span>
                         </div>
                     </div>
 
                     <div class="shader-inspector">
-                        <img src="shader-inspector.png" alt="Unity Shader Graph Inspector" onerror="this.src='https://via.placeholder.com/1000x500/444/ddd?text=Unity+Inspector+Screenshot'">
+                        <img src="shader-inspector.png" loading="lazy" decoding="async" alt="Unity Shader Graph Inspector" onerror="this.src='https://via.placeholder.com/1000x500/444/ddd?text=Unity+Inspector+Screenshot'">
                     </div>
                 </div>
 
                 <!-- 2. BAGIAN BAWAH: Kumpulan Screenshot UI (Statis) -->
                 <div class="khodam-shader-section" style="margin-top: 40px;">
-                    
-                    <!-- Judul & Deskripsi Baru (Disesuaikan ukurannya dengan Technical UI Implementation) -->
                     <div style="margin-bottom: 40px; text-align: center; padding: 0 2vw;">
                         <h3 style="font-size: clamp(1rem, 1.5vw, 1.5rem); font-weight: 900; color: #222; margin-bottom: 5px; line-height: 1.2;">End-to-End UI Development</h3>
                         <p style="font-size: clamp(0.9rem, 1.1vw, 1.1rem); font-weight: 500; font-style: italic; color: #333; margin: 0 auto; max-width: 600px; line-height: 1.4;">Handled the entire UI pipeline as a solo designer—from crafting pixel-perfect screens to hands-on layout implementation inside Unity.</p>
                     </div>
 
                     <div class="shader-inspector">
-                        <img src="khodam-screens.png" alt="KHODAM UI Screens" onerror="this.src='https://via.placeholder.com/1500x2000/eaeaea/555?text=Export+Top+UI+Screens+Di+Sini'">
+                        <img src="khodam-screens.png" loading="lazy" decoding="async" alt="KHODAM UI Screens" onerror="this.src='https://via.placeholder.com/1500x2000/eaeaea/555?text=Export+Top+UI+Screens+Di+Sini'">
                     </div>
                 </div>
 
@@ -1339,12 +1344,12 @@
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg>
             </button>
             <div class="pd-slider-track" id="yaxisSliderTrack">
-                <div class="pd-slide pd-slide-mobile pd-slide-center"><img src="yaxis-thumb.png" alt="Slide 1" onerror="this.src='https://via.placeholder.com/400x800/111/eee?text=Y-AXIS+Slide+1'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="yaxis-slide-2.png" alt="Slide 2" onerror="this.src='https://via.placeholder.com/400x800/333/eee?text=Y-AXIS+Slide+2'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="yaxis-slide-3.png" alt="Slide 3" onerror="this.src='https://via.placeholder.com/400x800/555/eee?text=Y-AXIS+Slide+3'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="yaxis-slide-4.png" alt="Slide 4" onerror="this.src='https://via.placeholder.com/400x800/777/eee?text=Y-AXIS+Slide+4'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="yaxis-slide-5.png" alt="Slide 5" onerror="this.src='https://via.placeholder.com/400x800/999/eee?text=Y-AXIS+Slide+5'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="yaxis-slide-6.png" alt="Slide 6" onerror="this.src='https://via.placeholder.com/400x800/bbb/eee?text=Y-AXIS+Slide+6'"></div>
+                <div class="pd-slide pd-slide-mobile pd-slide-center"><img src="yaxis-thumb.png" loading="lazy" decoding="async" alt="Slide 1" onerror="this.src='https://via.placeholder.com/400x800/111/eee?text=Y-AXIS+Slide+1'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="yaxis-slide-2.png" loading="lazy" decoding="async" alt="Slide 2" onerror="this.src='https://via.placeholder.com/400x800/333/eee?text=Y-AXIS+Slide+2'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="yaxis-slide-3.png" loading="lazy" decoding="async" alt="Slide 3" onerror="this.src='https://via.placeholder.com/400x800/555/eee?text=Y-AXIS+Slide+3'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="yaxis-slide-4.png" loading="lazy" decoding="async" alt="Slide 4" onerror="this.src='https://via.placeholder.com/400x800/777/eee?text=Y-AXIS+Slide+4'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="yaxis-slide-5.png" loading="lazy" decoding="async" alt="Slide 5" onerror="this.src='https://via.placeholder.com/400x800/999/eee?text=Y-AXIS+Slide+5'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="yaxis-slide-6.png" loading="lazy" decoding="async" alt="Slide 6" onerror="this.src='https://via.placeholder.com/400x800/bbb/eee?text=Y-AXIS+Slide+6'"></div>
             </div>
             <button class="pd-nav next interactable" id="pdNextBtnYaxis">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -1357,8 +1362,6 @@
                     <p class="pd-quote-text">Y-AXIS is a hyper-casual prototype developed during the i-Play Gamejam. The challenge was to create an intuitive interaction design that relies entirely on a single dragging mechanic, ensuring a seamless and engaging player experience on mobile devices.</p>
                     <span class="pd-quote-mark">”</span>
                 </div>
-                
-                <!-- Ruang kosong 50vh diperkecil jadi 15vh (hanya agar teks tidak tertutup tombol Close) -->
                 <div style="height: 0vh;"></div>
             </div>
         </div>
@@ -1375,11 +1378,11 @@
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg>
             </button>
             <div class="pd-slider-track" id="rushSliderTrack">
-                <div class="pd-slide pd-slide-mobile pd-slide-center"><img src="rush-thumb.png" alt="Slide 1" onerror="this.src='https://via.placeholder.com/400x800/111/eee?text=Rush+Racing+1'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="rush-slide-2.png" alt="Slide 2" onerror="this.src='https://via.placeholder.com/400x800/333/eee?text=Rush+Racing+2'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="rush-slide-3.png" alt="Slide 3" onerror="this.src='https://via.placeholder.com/400x800/555/eee?text=Rush+Racing+3'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="rush-slide-4.png" alt="Slide 4" onerror="this.src='https://via.placeholder.com/400x800/777/eee?text=Rush+Racing+4'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="rush-slide-5.png" alt="Slide 5" onerror="this.src='https://via.placeholder.com/400x800/999/eee?text=Rush+Racing+5'"></div>
+                <div class="pd-slide pd-slide-mobile pd-slide-center"><img src="rush-thumb.png" loading="lazy" decoding="async" alt="Slide 1" onerror="this.src='https://via.placeholder.com/400x800/111/eee?text=Rush+Racing+1'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="rush-slide-2.png" loading="lazy" decoding="async" alt="Slide 2" onerror="this.src='https://via.placeholder.com/400x800/333/eee?text=Rush+Racing+2'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="rush-slide-3.png" loading="lazy" decoding="async" alt="Slide 3" onerror="this.src='https://via.placeholder.com/400x800/555/eee?text=Rush+Racing+3'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="rush-slide-4.png" loading="lazy" decoding="async" alt="Slide 4" onerror="this.src='https://via.placeholder.com/400x800/777/eee?text=Rush+Racing+4'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="rush-slide-5.png" loading="lazy" decoding="async" alt="Slide 5" onerror="this.src='https://via.placeholder.com/400x800/999/eee?text=Rush+Racing+5'"></div>
             </div>
             <button class="pd-nav next interactable" id="pdNextBtnRush">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -1397,7 +1400,7 @@
         </div>
     </div>
 
-        <!-- ================= PROJECT OVERLAY: MYTHWOOD GARDEN ================= -->
+    <!-- ================= PROJECT OVERLAY: MYTHWOOD GARDEN ================= -->
     <div class="detail-overlay" id="detailMythwood" data-lenis-prevent>
         <div class="pd-header-spread">
             <h1 class="pd-title" id="dtTitleMythwood">MYTHWOOD GARDEN</h1>
@@ -1408,19 +1411,17 @@
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg>
             </button>
             <div class="pd-slider-track" id="mythwoodSliderTrack">
-                <!-- Format Landscape lebar, tanpa class mobile -->
-                <div class="pd-slide pd-slide-center"><img src="mythwood-thumb.png" alt="Slide 1" onerror="this.src='https://via.placeholder.com/800x450/4a69bd/fff?text=Mythwood+1'"></div>
-                <div class="pd-slide"><img src="mythwood-slide-2.png" alt="Slide 2" onerror="this.src='https://via.placeholder.com/800x450/4a69bd/fff?text=Mythwood+2'"></div>
-                <div class="pd-slide"><img src="mythwood-slide-3.png" alt="Slide 3" onerror="this.src='https://via.placeholder.com/800x450/4a69bd/fff?text=Mythwood+3'"></div>
-                <div class="pd-slide"><img src="mythwood-slide-4.png" alt="Slide 4" onerror="this.src='https://via.placeholder.com/800x450/4a69bd/fff?text=Mythwood+4'"></div>
-                <div class="pd-slide"><img src="mythwood-slide-5.png" alt="Slide 5" onerror="this.src='https://via.placeholder.com/800x450/4a69bd/fff?text=Mythwood+5'"></div>
-                <div class="pd-slide"><img src="mythwood-slide-6.png" alt="Slide 6" onerror="this.src='https://via.placeholder.com/800x450/4a69bd/fff?text=Mythwood+6'"></div>
+                <div class="pd-slide pd-slide-center"><img src="mythwood-thumb.png" loading="lazy" decoding="async" alt="Slide 1" onerror="this.src='https://via.placeholder.com/800x450/4a69bd/fff?text=Mythwood+1'"></div>
+                <div class="pd-slide"><img src="mythwood-slide-2.png" loading="lazy" decoding="async" alt="Slide 2" onerror="this.src='https://via.placeholder.com/800x450/4a69bd/fff?text=Mythwood+2'"></div>
+                <div class="pd-slide"><img src="mythwood-slide-3.png" loading="lazy" decoding="async" alt="Slide 3" onerror="this.src='https://via.placeholder.com/800x450/4a69bd/fff?text=Mythwood+3'"></div>
+                <div class="pd-slide"><img src="mythwood-slide-4.png" loading="lazy" decoding="async" alt="Slide 4" onerror="this.src='https://via.placeholder.com/800x450/4a69bd/fff?text=Mythwood+4'"></div>
+                <div class="pd-slide"><img src="mythwood-slide-5.png" loading="lazy" decoding="async" alt="Slide 5" onerror="this.src='https://via.placeholder.com/800x450/4a69bd/fff?text=Mythwood+5'"></div>
+                <div class="pd-slide"><img src="mythwood-slide-6.png" loading="lazy" decoding="async" alt="Slide 6" onerror="this.src='https://via.placeholder.com/800x450/4a69bd/fff?text=Mythwood+6'"></div>
             </div>
             <button class="pd-nav next interactable" id="pdNextBtnMythwood">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="9 18 15 12 9 6"></polyline></svg>
             </button>
         </div>
-        <!-- Tanpa class portrait agar teks mengisi area lebar dengan leluasa -->
         <div class="pd-content-area">
             <div class="pd-content-inner">
                 <div class="pd-quote-box">
@@ -1444,20 +1445,18 @@
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg>
             </button>
             <div class="pd-slider-track" id="arFlosSliderTrack">
-                <!-- Class pd-slide-mobile digunakan kembali untuk format HP -->
-                <div class="pd-slide pd-slide-mobile pd-slide-center"><img src="arflos-thumb.png" alt="Slide 1" onerror="this.src='https://via.placeholder.com/400x800/148740/fff?text=AR+FLOS+1'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="arflos-slide-2.png" alt="Slide 2" onerror="this.src='https://via.placeholder.com/400x800/333/fff?text=AR+FLOS+2'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="arflos-slide-3.png" alt="Slide 3" onerror="this.src='https://via.placeholder.com/400x800/555/fff?text=AR+FLOS+3'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="arflos-slide-4.png" alt="Slide 4" onerror="this.src='https://via.placeholder.com/400x800/777/fff?text=AR+FLOS+4'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="arflos-slide-5.png" alt="Slide 5" onerror="this.src='https://via.placeholder.com/400x800/999/fff?text=AR+FLOS+5'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="arflos-slide-6.png" alt="Slide 6" onerror="this.src='https://via.placeholder.com/400x800/bbb/fff?text=AR+FLOS+6'"></div>
-                <div class="pd-slide pd-slide-mobile"><img src="arflos-slide-7.png" alt="Slide 7" onerror="this.src='https://via.placeholder.com/400x800/ddd/fff?text=AR+FLOS+7'"></div>
+                <div class="pd-slide pd-slide-mobile pd-slide-center"><img src="arflos-thumb.png" loading="lazy" decoding="async" alt="Slide 1" onerror="this.src='https://via.placeholder.com/400x800/148740/fff?text=AR+FLOS+1'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="arflos-slide-2.png" loading="lazy" decoding="async" alt="Slide 2" onerror="this.src='https://via.placeholder.com/400x800/333/fff?text=AR+FLOS+2'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="arflos-slide-3.png" loading="lazy" decoding="async" alt="Slide 3" onerror="this.src='https://via.placeholder.com/400x800/555/fff?text=AR+FLOS+3'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="arflos-slide-4.png" loading="lazy" decoding="async" alt="Slide 4" onerror="this.src='https://via.placeholder.com/400x800/777/fff?text=AR+FLOS+4'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="arflos-slide-5.png" loading="lazy" decoding="async" alt="Slide 5" onerror="this.src='https://via.placeholder.com/400x800/999/fff?text=AR+FLOS+5'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="arflos-slide-6.png" loading="lazy" decoding="async" alt="Slide 6" onerror="this.src='https://via.placeholder.com/400x800/bbb/fff?text=AR+FLOS+6'"></div>
+                <div class="pd-slide pd-slide-mobile"><img src="arflos-slide-7.png" loading="lazy" decoding="async" alt="Slide 7" onerror="this.src='https://via.placeholder.com/400x800/ddd/fff?text=AR+FLOS+7'"></div>
             </div>
             <button class="pd-nav next interactable" id="pdNextBtnArFlos">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="9 18 15 12 9 6"></polyline></svg>
             </button>
         </div>
-        <!-- Class pd-content-portrait agar teks tidak terinjak navigasi -->
         <div class="pd-content-area pd-content-portrait">
             <div class="pd-content-inner">
                 <div class="pd-quote-box">
@@ -1481,15 +1480,14 @@
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg>
             </button>
             <div class="pd-slider-track" id="kadaKartSliderTrack">
-                <!-- Format Landscape Lebar (Tanpa class mobile) -->
-                <div class="pd-slide pd-slide-center"><img src="kadakart-thumb.png" alt="Slide 1" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+1'"></div>
-                <div class="pd-slide"><img src="kadakart-slide-2.png" alt="Slide 2" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+2'"></div>
-                <div class="pd-slide"><img src="kadakart-slide-3.png" alt="Slide 3" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+3'"></div>
-                <div class="pd-slide"><img src="kadakart-slide-4.png" alt="Slide 4" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+4'"></div>
-                <div class="pd-slide"><img src="kadakart-slide-5.png" alt="Slide 5" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+5'"></div>
-                <div class="pd-slide"><img src="kadakart-slide-6.png" alt="Slide 6" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+6'"></div>
-                <div class="pd-slide"><img src="kadakart-slide-7.png" alt="Slide 7" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+7'"></div>
-                <div class="pd-slide"><img src="kadakart-slide-8.png" alt="Slide 8" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+8'"></div>
+                <div class="pd-slide pd-slide-center"><img src="kadakart-thumb.png" loading="lazy" decoding="async" alt="Slide 1" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+1'"></div>
+                <div class="pd-slide"><img src="kadakart-slide-2.png" loading="lazy" decoding="async" alt="Slide 2" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+2'"></div>
+                <div class="pd-slide"><img src="kadakart-slide-3.png" loading="lazy" decoding="async" alt="Slide 3" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+3'"></div>
+                <div class="pd-slide"><img src="kadakart-slide-4.png" loading="lazy" decoding="async" alt="Slide 4" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+4'"></div>
+                <div class="pd-slide"><img src="kadakart-slide-5.png" loading="lazy" decoding="async" alt="Slide 5" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+5'"></div>
+                <div class="pd-slide"><img src="kadakart-slide-6.png" loading="lazy" decoding="async" alt="Slide 6" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+6'"></div>
+                <div class="pd-slide"><img src="kadakart-slide-7.png" loading="lazy" decoding="async" alt="Slide 7" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+7'"></div>
+                <div class="pd-slide"><img src="kadakart-slide-8.png" loading="lazy" decoding="async" alt="Slide 8" onerror="this.src='https://via.placeholder.com/800x450/f9ca24/333?text=Kada+Kart+8'"></div>
             </div>
             <button class="pd-nav next interactable" id="pdNextBtnKadaKart">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -1518,13 +1516,12 @@
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg>
             </button>
             <div class="pd-slider-track" id="pindahanSliderTrack">
-                <!-- Format Landscape Lebar (Tanpa class mobile) -->
-                <div class="pd-slide pd-slide-center"><img src="pindahan-thumb.png" alt="Slide 1" onerror="this.src='https://via.placeholder.com/800x450/e15f41/fff?text=Pindahan+1'"></div>
-                <div class="pd-slide"><img src="pindahan-slide-2.png" alt="Slide 2" onerror="this.src='https://via.placeholder.com/800x450/e15f41/fff?text=Pindahan+2'"></div>
-                <div class="pd-slide"><img src="pindahan-slide-3.png" alt="Slide 3" onerror="this.src='https://via.placeholder.com/800x450/e15f41/fff?text=Pindahan+3'"></div>
-                <div class="pd-slide"><img src="pindahan-slide-4.png" alt="Slide 4" onerror="this.src='https://via.placeholder.com/800x450/e15f41/fff?text=Pindahan+4'"></div>
-                <div class="pd-slide"><img src="pindahan-slide-5.png" alt="Slide 5" onerror="this.src='https://via.placeholder.com/800x450/e15f41/fff?text=Pindahan+5'"></div>
-                <div class="pd-slide"><img src="pindahan-slide-6.png" alt="Slide 6" onerror="this.src='https://via.placeholder.com/800x450/e15f41/fff?text=Pindahan+6'"></div>
+                <div class="pd-slide pd-slide-center"><img src="pindahan-thumb.png" loading="lazy" decoding="async" alt="Slide 1" onerror="this.src='https://via.placeholder.com/800x450/e15f41/fff?text=Pindahan+1'"></div>
+                <div class="pd-slide"><img src="pindahan-slide-2.png" loading="lazy" decoding="async" alt="Slide 2" onerror="this.src='https://via.placeholder.com/800x450/e15f41/fff?text=Pindahan+2'"></div>
+                <div class="pd-slide"><img src="pindahan-slide-3.png" loading="lazy" decoding="async" alt="Slide 3" onerror="this.src='https://via.placeholder.com/800x450/e15f41/fff?text=Pindahan+3'"></div>
+                <div class="pd-slide"><img src="pindahan-slide-4.png" loading="lazy" decoding="async" alt="Slide 4" onerror="this.src='https://via.placeholder.com/800x450/e15f41/fff?text=Pindahan+4'"></div>
+                <div class="pd-slide"><img src="pindahan-slide-5.png" loading="lazy" decoding="async" alt="Slide 5" onerror="this.src='https://via.placeholder.com/800x450/e15f41/fff?text=Pindahan+5'"></div>
+                <div class="pd-slide"><img src="pindahan-slide-6.png" loading="lazy" decoding="async" alt="Slide 6" onerror="this.src='https://via.placeholder.com/800x450/e15f41/fff?text=Pindahan+6'"></div>
             </div>
             <button class="pd-nav next interactable" id="pdNextBtnPindahan">
                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="#333" stroke-width="2" fill="none"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -1577,8 +1574,11 @@
         
         lenis.on('scroll', (e) => {
             ScrollTrigger.update();
-            gsap.set(".dots-grid", { backgroundPosition: `center ${window.scrollY * -0.1}px` });
+            if (window.innerWidth > 768) {
+                gsap.set(".dots-grid", { backgroundPosition: `center ${window.scrollY * -0.1}px` });
+            }
         });
+
 
         gsap.ticker.add((time) => { lenis.raf(time * 1000) });
         gsap.ticker.lagSmoothing(0, 0);
