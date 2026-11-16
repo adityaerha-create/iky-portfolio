@@ -1395,6 +1395,7 @@
                 <div style="height: 0vh;"></div>
             </div>
         </div>
+    </div>
 
         <!-- ================= PROJECT OVERLAY: MYTHWOOD GARDEN ================= -->
     <div class="detail-overlay" id="detailMythwood" data-lenis-prevent>
@@ -1510,7 +1511,7 @@
     <div class="detail-overlay" id="detailPindahan" data-lenis-prevent>
         <div class="pd-header-spread">
             <h1 class="pd-title" id="dtTitlePindahan">PINDAHAN</h1>
-            <p class="pd-subtitle" id="dtSubtitlePindahan">Multiplayer Game<br>Inspiredby Moving Out Game</p>
+            <p class="pd-subtitle" id="dtSubtitlePindahan">Multiplayer Game<br>Inspired by Moving Out Game</p>
         </div>
         <div class="pd-slider-wrapper">
             <button class="pd-nav prev interactable" id="pdPrevBtnPindahan">
@@ -1539,7 +1540,6 @@
                 <div style="height: 0vh;"></div>
             </div>
         </div>
-    </div>
     </div>
 
     <!-- Tombol Download Khusus Mobile -->
@@ -2079,7 +2079,7 @@
             const ogSubtitleRect = ogSubtitleEl.getBoundingClientRect(); const dtSubtitleRect = subtitleEl.getBoundingClientRect();
 
             indexRefObj.val = 0;
-            gsap.set(overlayEl.querySelector(".pd-slider-wrapper"), { y: 0 }); 
+            gsap.set(overlayEl.querySelector(".pd-slider-wrapper"), { yPercent: -50, y: 0 }); 
             gsap.set(slidesEl, { x: 0, scale: 1, opacity: 0, filter: "blur(0px)", zIndex: 1 });
             gsap.set(slidesEl[0], { opacity: 1, zIndex: 5 }); 
 
